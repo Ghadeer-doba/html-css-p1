@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    color: #373a3c;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+/* هذا الكلاس جاهز يتم اضافته لجعل الدف كلها بلوك واحد*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*------------------------------------------------------------*/
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.sidbar {
+    height: 100vh;
+    width: 30%;
+    background: #005396;
+    float: left;
+    color: white;
+    text-align: center;
+    position: fixed;
+
+}
+
+.sidbarheader {
+    margin: 30px;
+
+}
+
+.sidbarheader h1 {
+    margin-top: 3px;
+    font-weight: 50;
+    font-size: 40px;
+}
+
+
+
+.sidbarbodylist li {
+    margin: 25px;
+    list-style-type: none;
+
+
+}
+
+.sidbarbodylist a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: capitalize;
+
+}
+
+.sidbarbodylist a:hover {
+    color: yellow;
+}
+
+/*.......................................*/
+
+.contant {
+    margin-left: 30%;
+}
+
+
+.contant .contant-header>img {
+    width: 100%;
+
+}
+
+.welcome {
+    margin: 70px 80px 90px;
+}
+
+.welcome h2 {
+    color: #005396;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+/*-------------------------------------------*/
+.about-us {
+    margin: 30px 0 60px 80px;
+    ;
+}
+
+.about-us-left {
+    float: left;
+    margin-right: 50px;
+    width: 250px;
+
+}
+
+.about-us-left>img {
+    width: 100%;
+
+}
+
+.about-us-right h3 {
+    color: #005396;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 35px;
+
+}
+
+.about-us-right p {
+    margin-bottom: 25px;
+
+}
+
+.about-us-right a {
+    margin-left: 300px;
+    text-decoration: none;
+    background-color: #005396;
+    color: white;
+    padding: 20px 60px;
+    font-size: 22px;
+}
+
+.about-us-right a:hover {
+    background-color: #2790c6;
+}
+
+.first-g {
+    margin: 100px 35px 0 70px;
+
+
+}
+
+.first-g h3 {
+    color: #005396;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+
+.first-g .first-g1 {
+    float: left;
+    width: 20%;
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+
+.first-g .first-g1 img {
+    width: 100%;
+}
+
+/*------------------------------------------*/
+.secand-g {
+    margin: 60px 35px 0 70px;
+
+}
+
+.secand-g h3 {
+    color: #005396;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.secand-g .secand-g2 {
+    float: left;
+    width: 33%;
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+
+.secand-g .secand-g2 img {
+    width: 100%;
+}
+
+.third-g {
+
+    margin: 60px 35px 15px 70px;
+
+}
+
+.third-g h3 {
+    color: #005396;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.third-g .third-g3 {
+    float: left;
+    width: 25%;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.third-g .third-g3 img {
+    width: 100%;
+
+}
+
+/*---------------------------------*/
+
+.connect-us-left {
+    margin: 50px 35px 35px 70px;
+    float: left;
+    width: 40%;
+    padding: 10px;
+
+
+
+}
+
+.connect-us-left h3 {
+    color: #005396;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+
+}
+
+.connect-us-left input {
+    height: 45px;
+}
+
+.connect-us-left input,
+.connect-us-left textarea {
+    width: 100%;
+    padding: 7px 11px;
+    border: 1px solid #005396;
+    outline-color: #a2c3d4;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+.connect-us-left input::placeholder,
+.connect-us-left textarea::placeholder {
+    color: #005396;
+
+}
+
+.from-group {
+    margin-bottom: 10px;
+}
+
+.connect-us-left button {
+    color: white;
+    background-color: #005396;
+    border: 0px;
+    font-size: 20px;
+    padding: 18px 35px;
+    font-weight: 300;
+}
+
+.connect-us-right {
+
+    margin-top: 150px;
+    width: 45%;
+    float: right;
+}
